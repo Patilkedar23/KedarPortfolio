@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--font-family: 'Baloo Thambi 2', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--font-family: 'Fira Code', monospace;-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--Emailjs script-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="scripts/email.js"></script>
+    <script src="scripts/function.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("fUIDrOD7GrEIVjf6u");
+    })();
+    </script>
+    
+
+</head>
+<body>
+    <!--hero section-->
+    <section class="hero-section" id="landing-page">
+        <!--nav section-->
+        <section class="nav-bar">
+            <ul class="nav-options"> 
+                    <img src="images/avatar2.png" class="img" id="logo" onclick="scrollToSection('landing-page')">
+                <div class="pc-options">
+                    <li class="nav-option" onclick="scrollToSection('page3')" >Projects</li>
+                    <li class="nav-option" onclick="scrollToSection('page2')">About</li>
+                    <li class="nav-option" onclick="scrollToSection('page4')">Resume</li>
+                    <li class="nav-option" onclick="scrollToSection('page5')">Contact Me</li>
+                    
+                </div>
+            </ul>
+        </section>
+        <!--End of nav bar-->
+        <section class="main-section">
+            <div class="main-container">
+                <div class="text-container">
+                    <h1 class="main-header">Hello I'M <br>Kedar.</h1>
+                    <h2 class="sub-header">Welcome to my portfolio website!</h2>
+                </div>
+                <div class="main-img">
+                    <img src="images/vector3.png" class="img-main">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--start of about page-->
+    <section class="page2" id="page2">
+        <div class="page2-wrapper">
+            <div class="about"><h2 class="about-header">About-Me.html</h2>
+                <p class="para">Welcome to my portfolio website! I'm Kedar Patil, a passionate software developer and recent Computer Science Engineering graduate. 
+                    <br><br>With a strong foundation in programming and a keen interest in technology, I strive to create innovative and efficient solutions. I specialize in various development such as web development, with expertise in HTML, CSS, JavaScript, java, SQL etc. 
+                    <br><br>My projects showcase my skills in creating user-friendly web applications and solving real-world problems. I'm excited to share my journey, projects, and experiences with you. 
+                    <br><br>Feel free to explore my portfolio and get in touch!
+                </p>
+            </div>
+    </section>
+    <!--end of about page-->
+    <!--start of project page-->
+    <section class="page3" id="page3">
+        <div class="project-section">
+            <h2 class="project-header">My Projects.html</h2>
+            <div class="project-container">
+              <div class="project-card"><div class="item-header">Project-1.html</div>
+                    <div class="pro-content"><b>Cover-Page Generator:</b> <br>This is the Web App created for the students of my college department which can be used to generate
+                            the coverpage of the lab reports without any hassle student just need to enter the required information in the all the input fields
+                            and upon clicking the download buttton the pdf of the coverpage should be generated.
+                    </div>
+                    <span class="links"><a href=" https://github.com/Patilkedar23/coverpagegenerator.git" class="git">git-></a><a href="https://patilkedar23.github.io/coverpagegenerator/" class="demo">demo-></a></span>
+                </div>
+              <div class="project-card"><div class="item-header">Project-2.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div>
+              <div class="project-card"><div class="item-header">Project-3.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div>
+              <div class="project-card"><div class="item-header">Project-4.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div>
+              <div class="project-card"><div class="item-header">Project-5.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div>
+              <div class="project-card"><div class="item-header">Project-6.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div> 
+              <div class="project-card"><div class="item-header">Project-7.html</div><div class="pro-content"><b>Error-404:Coming-soon</b></div></div> 
+        </div>
+    </section>
+    <!--end of project page-->
+    <!--start of resume page-->
+    <section class="page4" id="page4">
+        <div class="resume-section">
+            <h2 class="project-header">Resume.html</h2>
+            <div class="top-part">
+                <div class="name">Kedar Patil</div>
+                <div class="contact-info">7875808345 kedarpatil234@gmail.com Pune,maharashtra</div>
+            </div>
+            <div class="summary">
+                <div class="resume-header">summary</div> 
+            </div>
+            <hr class="horizontal-line">
+            <div class="summary-description">
+                As a recent Computer Science Engineering graduate, I have a strong foundation in programming and a passion for software development.
+                With proficiency in C, C++, Java, HTML, CSS, and JavaScript, I am well-equipped for full-stack web development and software engineering. 
+                Through My projects, I have demonstrated my ability to solve real-world challenges effectively. I am eager to contribute my skills and drive impactful solutions as part of your team.
+            </div>
+            <div class="resume-header">Skills</div>
+            <hr class="horizontal-line">
+            <div class="skills"><b>Technical Skills:</b>C,C++,Java,Html,Css,Javascript,SQL,Git,github</div>
+            <div class="resume-header">Projects</div>
+            <hr class="horizontal-line">
+            <div class="projects-header">Coverpage-Generator</div>
+               <div class="pro-desc"> This is the Web App created for the students of my college department which can be used to generate the coverpage of the lab reports without any 
+                hassle student just need to enter the required information in the all the input fields and upon clicking the download button the pdf of the coverpage should be generated.
+                The techonologies which i used to create this project are Html,Css and Javascript, for pdf generation i have made use of the jsPdf library.
+            </div>
+            <div class="projects-header">Portfolio-website</div>
+            <div class="pro-desc">My portfolio website is a visually appealing and responsive platform that showcases my skills and projects. 
+                It features sections like About Me, Projects and Contact. Users can easily get in touch with me through the contact section. 
+                The website is designed to grow as I continue to add new projects and update my skills.
+            </div>
+            <div class="resume-header">Education</div>
+            <hr class="horizontal-line">
+            <div class="edu-desc"><b>SSC</b><br>
+                Boisar Military School, Boisar|Percentage:88.4/100|2016 - 2017<br>
+                <b>HSC</b><br>
+                H.D. Save Jr. College, Tarapur|Percentage:62.3/100|2018 - 2019<br>
+                <b>B.E Computer Science</b><br>
+                Jayawantrao Sawant College Of Engineering|CGPA:8.7/10|2019-2023
+            </div>
+            <div class="resume-header">Languages Known</div>
+            <hr class="horizontal-line">
+            <div class="language-desc">
+                <div class="lan">English</div>
+                <div class="lan">Marathi</div>
+                <div class="lan">Hindi</div>
+            </div>
+            <div class="resume-header">Interests and Hobbies</div>
+            <hr class="horizontal-line">
+            <div class="hob-desc">
+                <div class="hob">Trekking</div>
+                <div class="hob">Painting</div>
+                <div class="hob">Sketching</div>
+            </div>
+            <div class="resume-header">Personal details</div>
+            <hr class="horizontal-line">
+            <div class="personal-desc">
+                Gender - Male <br>
+                DOB - 23th March 2002<br>
+                Permanent Address - Bhavana Bunglow behind airtel tower, <br>pasthal naka, Boisar-Tarapur road, 401504.
+            </div>
+            <div class="button">
+                <button class="cv" id="resume-button" onclick="downloadPDF()">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <!--end of resume page-->
+    <!--start of contact me-->
+    <section class="page5" id="page5">
+        <div class="contact-me">
+            <h2 class="project-header">Contact-Me.html</h2>
+            <form action="submit" id="contactform">
+                <label for="name" class="label">Name :</label>
+                <input type="text" id="name" class="textbox" name="name" placeholder="Enter your name here.." required>
+                <br>
+                <label for="email" class="label">Email :</label>
+                <input type="email" id="email" class="textbox" name="email" placeholder="Enter your email here.." required>
+                <br>
+                <label for="phone" class="label">Phone :</label>
+                <input type="tel" id="phone" class="textbox" name="Phone" placeholder="Enter your Mobile No here.." required>
+                <br>
+                <label for="message" class="label">Message :</label>
+                <input type="tel" id="message" class="textbox" name="Phone" placeholder="Enter your Message here.." required>
+                <br>
+                <div class="form-button">
+                    <div class="button-wrapper">
+                        <input id="submit-btn" type="submit" value="submit" class="fbutton" onclick="sendemail(event)">
+                        <input id="reset-btn" type="reset" value="Reset" class="fbutton">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--End of contact me-->
+</body>
+</html>
